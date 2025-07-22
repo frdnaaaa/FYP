@@ -1,7 +1,0 @@
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.1.115:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-ERROR:root:Transcription error: AutomaticSpeechRecognitionPipeline._sanitize_parameters() got an unexpected keyword argument 'max_new_tokens'
-INFO:werkzeug:127.0.0.1 - - [22/Jul/2025 20:19:27] "POST /api/transcribe HTTP/1.1" 200 -

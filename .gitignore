@@ -1,0 +1,8 @@
+.env
+app.log
+__pycache__/
+*.pyc
+*.zip
+offload_dir/
+whisper-large-peft-malay-e20/
+asr_malay_mobile/
