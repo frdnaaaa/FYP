@@ -56,7 +56,7 @@ def create_response(status, message, data=None):
     }
 
 # Load both models once
-recognizer_e20 = SpeechRecognizer(peft_model_id="frdnaaaa/whisper-large-peft-malay-e20")
+recognizer_e20 = SpeechRecognizer(peft_model_id="rdee/whisper-large-peft-malay-e20")
 recognizer_e3 = SpeechRecognizer(peft_model_id="clt013/whisper-large-v3-ft-malay-peft-epoch-20")
 
 @app.route('/', methods=['GET'])
